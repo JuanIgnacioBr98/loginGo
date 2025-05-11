@@ -7,7 +7,7 @@ import (
 	"gorm.io/gorm"
 )
 
-var CONNECTION_STRING = "host=localhost user=postgres password=12345 dbname=logingo port=5432 sslmode=disable TimeZone=America/Argentina/Buenos_Aires"
+var CONNECTION_STRING = "host=localhost user=postgres password=postgres dbname=logingo port=5432 sslmode=disable TimeZone=America/Argentina/Buenos_Aires"
 var DB *gorm.DB
 
 func DbConnect() {
